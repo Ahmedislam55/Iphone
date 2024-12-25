@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: segoe Ui light;
+}
+body
+{
+    background-color: black;
+}
+.navbar
+{
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+.logo
+{
+    width: 60px;
+}
+.nav-link 
+{
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius:20px;
+    font-family: segoe Ui;
+    font-size: 18px;
+}
+.container
+{
+    height: 100vh;
+}
+.row
+{
+    justify-content: space-between;
+    padding-top: 80px;
+    align-items: center;
+}
+.items
+{
+    color: #fff;
+    
+}
+.items h2
+{
+    text-transform: uppercase;
+    font-family:segoe Ui;
+    padding: 20px;
+}
+.items p
+{
+    padding: 0px 20px;
+    line-height: 2;
+}
+.image
+{
+    margin-top: 50px;
+}
+.btn
+{
+    margin: 20px;
+}
+.mainImage img
+{
+    width: 200px;
+}
+.images
+{
+    text-align: center;
+}
+.images img
+{
+    width: 70px;
+}
+.images img:hover
+{
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+}
